@@ -1,0 +1,96 @@
+<template>
+  <div class="OP-outerbox">
+    <div class="OP-innerbox">
+      <div class="header-box">
+        <div class="header">
+          <img src="../../../../Pictures/square/header.jpg" />
+          <span class="username">Ya-呀</span>
+        </div>
+        <span class="time">2021-08-27 16:00</span>
+      </div>
+      <div class="content-box">
+        <p>你好，陌生人</p>
+        <p>不要说明天的光是异乡的朝阳</p>
+        <p>不要让风帆带着小船离你远去</p>
+        <p>你好，陌生人</p>
+        <p>你说这里不是你的故乡</p>
+        <p>你说你是这座城的孩子</p>
+        <p>你好，陌生人</p>
+        <p>光飞快从你耳廓划过</p>
+        <p>风狠狠拨开你的发梢</p>
+        <p>雨从白净的脸上划下</p>
+        <p>你对我说</p>
+        <p>你好，陌生人</p>
+        <p>你是我的家乡</p>
+      </div>
+      <div class="category"># 原创圈</div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "OriginalPostsTwo",
+};
+</script>
+
+<style scoped>
+.OP-outerbox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  margin: 5px 0;
+}
+
+.OP-innerbox {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-box {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.header {
+  height: 100%;
+  width: 110px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(54, 54, 54);
+}
+.header img {
+  height: 80%;
+  border-radius: 8px;
+}
+
+.time {
+  font-size: 14px;
+  color: rgb(118, 118, 118);
+  margin-right: 10px;
+}
+
+.content-box {
+  width: 100%;
+  margin: 10px 0 20px 0;
+}
+
+.content-box p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.category {
+  width: 100%;
+  color: rgb(102, 117, 255);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+</style>

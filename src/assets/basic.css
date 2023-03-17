@@ -1,0 +1,19 @@
+/* 微软雅黑 */
+@font-face {
+  font-family: "msyh";
+  src: url("./Fonts/msyh.ttc");
+}
+
+
+* {
+  text-decoration: none;
+  font-family: "msyh";
+}
+
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}

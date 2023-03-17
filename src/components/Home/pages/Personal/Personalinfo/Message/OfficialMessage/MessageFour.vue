@@ -1,0 +1,76 @@
+<template>
+  <div class="outerbox">
+    <div class="innerbox">
+      <div class="time">2022年01月25日 12:00</div>
+      <div class="content-box">
+        <p class="tittle">系统消息</p>
+        <div class="imgbox">
+          <img src="../../../../../../Pictures/personal/Message/1.jpg" />
+        </div>
+        <p class="text">
+          【公告】新年福利超多惊喜，虎年好礼送不停。
+        </p>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "MessageFour",
+};
+</script>
+
+<style scoped>
+.outerbox {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.innerbox {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.time {
+  height: 45px;
+  line-height: 45px;
+  font-size: 13px;
+  color: rgb(199, 199, 199);
+}
+
+.content-box {
+  width: 100%;
+  background-color: rgb(250, 250, 250);
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tittle {
+  width: 92%;
+  margin: 20px 0 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.imgbox{
+  width: 90%;
+  margin-bottom: 15px;
+}
+
+.imgbox img{
+  width: 100%;
+}
+
+.text {
+  width: 92%;
+  margin: 0 0 15px 0;
+}
+</style>
